@@ -116,18 +116,18 @@ const ContactForm = () => {
               
                 <div className="flex-1 py-6 px-0 sm:px-8">
                   <div className="py-4">
-                    <h2 className="text-xl sm:text-4xl text-gray-900 mb-1 font-semibold">Reach out to us at:</h2>
+                    <h2 className="text-xl sm:text-4xl text-gray-900 font-semibold">Reach out to us at:</h2>
                   </div>
-                  <p className="text-xl">Presentations are communication
+                  {/* <p className="text-xl">Presentations are communication
                     tools that can be used as
                     demonstrations, lectures,
                     speeches, reports, and more.
-                  </p>
+                  </p> */}
                   <div className="my-4 text-left">
-                    <Link to="mailto:HR@avgna.com">
+                    <Link to="mailto:trumpevents04@gmail.com">
                       <div className="inline-flex justify-start items-center pointer-events-none text-slate-600">
                         <MdIcons.MdEmail fontSize={22} className="mr-2 text-customPurple-900" />
-                        <p className="sm:text-xl">trumpevents@trumpeventsolution.com</p>
+                        <p className="sm:text-xl">trumpevents04@gmail.com</p>
                       </div>
                     </Link>
                     <div>
